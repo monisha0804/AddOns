@@ -1,0 +1,27 @@
+package Debugging;
+
+public class Debug {
+
+	public static void main(String[] args) {
+		
+		Cat cat1 = new Cat("Kitty");
+		cat1.setPreference("coffee");
+		cat1.setCatAge(6);
+		
+
+		Cat cat2 = new Cat("Leo");
+		cat2.setPreference("tea");
+		cat2.getPreference();
+		System.out.println(cat2.getCatAge());
+		
+		Cat[] cat = new Cat[2];
+		cat[0] = cat1;
+		cat[1] = cat2;
+		
+		
+		
+	}
+
+}
+
+//The value gets updated in the variable view in the debugging perspective. Check on each line by using step over (F5) functionality 
