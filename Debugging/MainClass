@@ -24,4 +24,8 @@ public class Debug {
 
 }
 
-//The value gets updated in the variable view in the debugging perspective. Check on each line by using step over (F5) functionality 
+//The value gets updated in the variable view in the debugging perspective. Check on each line by using step over (F6) functionality 
+
+//F5 is for step into -- move inside the method 
+//F7 is for Step Return -- return to the original code of execution
+//F8 is for Resume -- resume the code execution until it meets the next breakpoint
