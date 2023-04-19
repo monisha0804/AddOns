@@ -1,0 +1,29 @@
+package Debugging;
+
+public class Cat {
+	
+	int catAge;
+	String preference;
+	String name;
+	
+	public int getCatAge() {
+		return catAge;
+	}
+	public void setCatAge(int catAge) {
+		this.catAge = catAge;
+	}
+	public String getPreference() {
+		return preference;
+	}
+	public void setPreference(String preference) {
+		this.preference = preference;
+	}
+	public Cat(String name) {
+		super();
+		this.name = name;
+	}
+
+}
+
+
+//Here, we are creating a constructor for the name variable alone so as to use it directly 
