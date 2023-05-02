@@ -46,7 +46,7 @@ Installation:
 	
 	LOGIN CREDENTIALS:
 			Username: admin
-			password : admin  -- monisha@Om0804
+			password : admin 
 		
 		Then, the change password page will open and so change it and use it in further cases. 
 
@@ -96,12 +96,12 @@ SONAR-QUBE DASHBOARD:
 		*Need to generate token for project 
 		*open administrator -> my account -> security -> enter token name and type( global token ) -> GENERATE
 		
-		GENERATED TOKEN : sqa_62eb82858d30bd176e5f8a15e9f7efab9a476887
+		GENERATED TOKEN : ************************
 			
-	sonar:sonar -Dsonar.login=sqa_62eb82858d30bd176e5f8a15e9f7efab9a476887
+	sonar:sonar -Dsonar.login=************************
 	
 STS: 
-	*right click on project name -> run as-> maven build(2nd maven build) -> goals -> sonar:sonar -Dsonar.login=sqa_62eb82858d30bd176e5f8a15e9f7efab9a476887
+	*right click on project name -> run as-> maven build(2nd maven build) -> goals -> sonar:sonar -Dsonar.login=************************
 					-> apply -> run -> BUILD SUCCESS
 					
 	*REFRESH 
